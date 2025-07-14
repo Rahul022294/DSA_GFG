@@ -1,4 +1,5 @@
 class Next_Permutation {
+    
     // Function to find the next permutation
     static void nextPermutation(int[] nums) {
         int n = nums.length;
@@ -36,7 +37,7 @@ class Next_Permutation {
         while (start < end) {
             swap(nums, start, end);
             start++;
-            end--;
+            end--; 
         }
     }
 }
