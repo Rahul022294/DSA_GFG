@@ -1,4 +1,6 @@
 class Next_Permutation {
+
+
     
     // Function to find the next permutation
     static void nextPermutation(int[] nums) {
